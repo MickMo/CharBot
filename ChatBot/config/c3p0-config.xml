@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <c3p0-config>
 	<default-config>
-		<property name="jdbcUrl">jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.42)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=zzfb)))
+		<property name="jdbcUrl">jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.XXXXXX.XXXXXX)(PORT=1XXX1)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XXXXXXXXXX)))
 		
 		</property>
 		<property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
-		<property name="user">gdsy</property>
-		<property name="password">111</property>
+		<property name="user">XXXXXXXXXXX</property>
+		<property name="password">XXXXXXXXXXXX</property>
 		<property name="initialPoolSize">3</property>
 		<property name="maxPoolSize">6</property>
 		<property name="maxIdleTime">1000</property>
